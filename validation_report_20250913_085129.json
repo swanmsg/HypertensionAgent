@@ -1,0 +1,113 @@
+{
+  "validation_time": "2025-09-13T08:51:29.023805",
+  "summary": {
+    "total_tests": 17,
+    "passed": 16,
+    "failed": 1,
+    "success_rate": 94.11764705882352
+  },
+  "test_results": [
+    {
+      "test": "API连接",
+      "success": true,
+      "message": "API服务正常运行",
+      "timestamp": "2025-09-13T08:51:08.065414"
+    },
+    {
+      "test": "数据库初始化",
+      "success": true,
+      "message": "数据库表创建成功",
+      "timestamp": "2025-09-13T08:51:08.067331"
+    },
+    {
+      "test": "患者创建",
+      "success": true,
+      "message": "患者ID: 8",
+      "timestamp": "2025-09-13T08:51:08.093459"
+    },
+    {
+      "test": "血压记录创建",
+      "success": true,
+      "message": "血压记录创建成功",
+      "timestamp": "2025-09-13T08:51:08.105449"
+    },
+    {
+      "test": "血压记录查询",
+      "success": true,
+      "message": "找到 1 条记录",
+      "timestamp": "2025-09-13T08:51:08.109366"
+    },
+    {
+      "test": "AI模型信息",
+      "success": true,
+      "message": "模型: 未知模型类型 (online)",
+      "timestamp": "2025-09-13T08:51:08.313569"
+    },
+    {
+      "test": "AI血压分析",
+      "success": true,
+      "message": "分级: 1级高血压",
+      "timestamp": "2025-09-13T08:51:08.315440"
+    },
+    {
+      "test": "AI服务",
+      "success": false,
+      "message": "AI服务测试失败: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=20)",
+      "timestamp": "2025-09-13T08:51:28.317107"
+    },
+    {
+      "test": "知识库搜索",
+      "success": true,
+      "message": "搜索功能正常",
+      "timestamp": "2025-09-13T08:51:29.013608"
+    },
+    {
+      "test": "血压分类信息",
+      "success": true,
+      "message": "血压分类信息获取成功",
+      "timestamp": "2025-09-13T08:51:29.016265"
+    },
+    {
+      "test": "血压分级",
+      "success": true,
+      "message": "分级结果: 1级高血压",
+      "timestamp": "2025-09-13T08:51:29.016324"
+    },
+    {
+      "test": "风险评估",
+      "success": true,
+      "message": "风险等级: 极高风险",
+      "timestamp": "2025-09-13T08:51:29.016354"
+    },
+    {
+      "test": "生活方式建议",
+      "success": true,
+      "message": "生成 9 条建议",
+      "timestamp": "2025-09-13T08:51:29.016362"
+    },
+    {
+      "test": "药物推荐",
+      "success": true,
+      "message": "需要药物治疗: True",
+      "timestamp": "2025-09-13T08:51:29.016380"
+    },
+    {
+      "test": "数据验证",
+      "success": true,
+      "message": "无效血压值被正确拒绝",
+      "timestamp": "2025-09-13T08:51:29.018008"
+    },
+    {
+      "test": "患者数据验证",
+      "success": true,
+      "message": "无效患者数据被正确拒绝",
+      "timestamp": "2025-09-13T08:51:29.021545"
+    },
+    {
+      "test": "急症检测",
+      "success": true,
+      "message": "高血压危象被正确识别",
+      "timestamp": "2025-09-13T08:51:29.023527"
+    }
+  ]
+}

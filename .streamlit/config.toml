@@ -1,0 +1,29 @@
+[client]
+# 跳过邮箱收集，避免交互式提示
+gatherUsageStats = false
+showErrorDetails = true
+
+[server]
+# 服务器配置
+port = 8501
+address = "0.0.0.0"
+headless = true
+runOnSave = true
+allowRunOnSave = true
+
+[browser]
+# 浏览器配置
+serverAddress = "localhost"
+serverPort = 8501
+gatherUsageStats = false
+
+[theme]
+# 主题配置
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+
+[logger]
+# 日志配置
+level = "info"

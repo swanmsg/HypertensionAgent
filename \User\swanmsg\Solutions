@@ -1,0 +1,304 @@
+{
+  "export_time": "2025-09-13T08:14:09.121022",
+  "total_patients": 4,
+  "patients": [
+    {
+      "id": 1,
+      "name": "测试患者",
+      "age": 45,
+      "gender": "男",
+      "height": null,
+      "weight": null,
+      "phone": null,
+      "email": null,
+      "systolic_bp": 140.0,
+      "diastolic_bp": 90.0,
+      "hypertension_duration": null,
+      "created_at": "2025-09-13T00:10:42.750986",
+      "blood_pressure_records": [],
+      "medical_advice": []
+    },
+    {
+      "id": 2,
+      "name": "张三",
+      "age": 55,
+      "gender": "男",
+      "height": 175.0,
+      "weight": 75.0,
+      "phone": "13812345678",
+      "email": "zhangsan@example.com",
+      "systolic_bp": 154.0,
+      "diastolic_bp": 118.0,
+      "hypertension_duration": 3,
+      "created_at": "2025-09-13T00:12:58.582769",
+      "blood_pressure_records": [
+        {
+          "systolic_bp": 161.0,
+          "diastolic_bp": 104.0,
+          "heart_rate": 88,
+          "measurement_time": "2025-09-11T08:12:58.590034",
+          "notes": "第1次测量"
+        },
+        {
+          "systolic_bp": 164.0,
+          "diastolic_bp": 103.0,
+          "heart_rate": 83,
+          "measurement_time": "2025-08-19T08:12:58.596394",
+          "notes": null
+        },
+        {
+          "systolic_bp": 152.0,
+          "diastolic_bp": 99.0,
+          "heart_rate": 70,
+          "measurement_time": "2025-08-16T08:12:58.599180",
+          "notes": null
+        },
+        {
+          "systolic_bp": 166.0,
+          "diastolic_bp": 105.0,
+          "heart_rate": 61,
+          "measurement_time": "2025-09-12T08:12:58.602713",
+          "notes": "第4次测量"
+        },
+        {
+          "systolic_bp": 155.0,
+          "diastolic_bp": 107.0,
+          "heart_rate": 95,
+          "measurement_time": "2025-09-05T08:12:58.605934",
+          "notes": null
+        },
+        {
+          "systolic_bp": 141.0,
+          "diastolic_bp": 101.0,
+          "heart_rate": 100,
+          "measurement_time": "2025-09-09T08:12:58.608254",
+          "notes": null
+        },
+        {
+          "systolic_bp": 156.0,
+          "diastolic_bp": 107.0,
+          "heart_rate": 79,
+          "measurement_time": "2025-09-08T08:12:58.610656",
+          "notes": "第7次测量"
+        },
+        {
+          "systolic_bp": 156.0,
+          "diastolic_bp": 114.0,
+          "heart_rate": 99,
+          "measurement_time": "2025-09-11T08:12:58.612968",
+          "notes": null
+        },
+        {
+          "systolic_bp": 169.0,
+          "diastolic_bp": 112.0,
+          "heart_rate": 98,
+          "measurement_time": "2025-09-01T08:12:58.616007",
+          "notes": null
+        },
+        {
+          "systolic_bp": 154.0,
+          "diastolic_bp": 118.0,
+          "heart_rate": 91,
+          "measurement_time": "2025-08-31T08:12:58.619213",
+          "notes": "第10次测量"
+        }
+      ],
+      "medical_advice": [
+        {
+          "advice_type": "初始评估",
+          "content": "基于患者 张三 的血压情况，建议进行生活方式干预和定期监测。",
+          "risk_level": "中风险",
+          "created_at": "2025-09-13T00:12:58.622409"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "李四",
+      "age": 62,
+      "gender": "女",
+      "height": 160.0,
+      "weight": 65.0,
+      "phone": "13987654321",
+      "email": "lisi@example.com",
+      "systolic_bp": 200.0,
+      "diastolic_bp": 77.0,
+      "hypertension_duration": 8,
+      "created_at": "2025-09-13T00:12:58.587163",
+      "blood_pressure_records": [
+        {
+          "systolic_bp": 167.0,
+          "diastolic_bp": 100.0,
+          "heart_rate": 73,
+          "measurement_time": "2025-08-27T08:12:58.625021",
+          "notes": "第1次测量"
+        },
+        {
+          "systolic_bp": 177.0,
+          "diastolic_bp": 108.0,
+          "heart_rate": 84,
+          "measurement_time": "2025-08-20T08:12:58.627294",
+          "notes": null
+        },
+        {
+          "systolic_bp": 192.0,
+          "diastolic_bp": 107.0,
+          "heart_rate": 69,
+          "measurement_time": "2025-08-26T08:12:58.629442",
+          "notes": null
+        },
+        {
+          "systolic_bp": 193.0,
+          "diastolic_bp": 98.0,
+          "heart_rate": 60,
+          "measurement_time": "2025-08-24T08:12:58.631860",
+          "notes": "第4次测量"
+        },
+        {
+          "systolic_bp": 200.0,
+          "diastolic_bp": 88.0,
+          "heart_rate": 80,
+          "measurement_time": "2025-09-06T08:12:58.636727",
+          "notes": null
+        },
+        {
+          "systolic_bp": 196.0,
+          "diastolic_bp": 90.0,
+          "heart_rate": 95,
+          "measurement_time": "2025-08-17T08:12:58.639477",
+          "notes": null
+        },
+        {
+          "systolic_bp": 191.0,
+          "diastolic_bp": 80.0,
+          "heart_rate": 68,
+          "measurement_time": "2025-09-08T08:12:58.641484",
+          "notes": "第7次测量"
+        },
+        {
+          "systolic_bp": 193.0,
+          "diastolic_bp": 71.0,
+          "heart_rate": 96,
+          "measurement_time": "2025-08-19T08:12:58.644258",
+          "notes": null
+        },
+        {
+          "systolic_bp": 196.0,
+          "diastolic_bp": 74.0,
+          "heart_rate": 72,
+          "measurement_time": "2025-09-04T08:12:58.647110",
+          "notes": null
+        },
+        {
+          "systolic_bp": 200.0,
+          "diastolic_bp": 77.0,
+          "heart_rate": 81,
+          "measurement_time": "2025-09-08T08:12:58.650032",
+          "notes": "第10次测量"
+        }
+      ],
+      "medical_advice": [
+        {
+          "advice_type": "初始评估",
+          "content": "基于患者 李四 的血压情况，建议进行生活方式干预和定期监测。",
+          "risk_level": "中风险",
+          "created_at": "2025-09-13T00:12:58.654023"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "王五",
+      "age": 45,
+      "gender": "男",
+      "height": 170.0,
+      "weight": 80.0,
+      "phone": "13765432109",
+      "email": "wangwu@example.com",
+      "systolic_bp": 157.0,
+      "diastolic_bp": 120.0,
+      "hypertension_duration": 1,
+      "created_at": "2025-09-13T00:12:58.588794",
+      "blood_pressure_records": [
+        {
+          "systolic_bp": 146.0,
+          "diastolic_bp": 91.0,
+          "heart_rate": 70,
+          "measurement_time": "2025-08-15T08:12:58.660734",
+          "notes": "第1次测量"
+        },
+        {
+          "systolic_bp": 151.0,
+          "diastolic_bp": 98.0,
+          "heart_rate": 90,
+          "measurement_time": "2025-09-07T08:12:58.687696",
+          "notes": null
+        },
+        {
+          "systolic_bp": 155.0,
+          "diastolic_bp": 105.0,
+          "heart_rate": 94,
+          "measurement_time": "2025-08-14T08:12:58.701904",
+          "notes": null
+        },
+        {
+          "systolic_bp": 146.0,
+          "diastolic_bp": 114.0,
+          "heart_rate": 76,
+          "measurement_time": "2025-09-05T08:12:58.711727",
+          "notes": "第4次测量"
+        },
+        {
+          "systolic_bp": 134.0,
+          "diastolic_bp": 111.0,
+          "heart_rate": 98,
+          "measurement_time": "2025-08-22T08:12:58.716919",
+          "notes": null
+        },
+        {
+          "systolic_bp": 138.0,
+          "diastolic_bp": 113.0,
+          "heart_rate": 73,
+          "measurement_time": "2025-09-06T08:12:58.718931",
+          "notes": null
+        },
+        {
+          "systolic_bp": 140.0,
+          "diastolic_bp": 111.0,
+          "heart_rate": 71,
+          "measurement_time": "2025-08-30T08:12:58.720609",
+          "notes": "第7次测量"
+        },
+        {
+          "systolic_bp": 138.0,
+          "diastolic_bp": 118.0,
+          "heart_rate": 98,
+          "measurement_time": "2025-09-12T08:12:58.722264",
+          "notes": null
+        },
+        {
+          "systolic_bp": 144.0,
+          "diastolic_bp": 120.0,
+          "heart_rate": 90,
+          "measurement_time": "2025-08-26T08:12:58.724105",
+          "notes": null
+        },
+        {
+          "systolic_bp": 157.0,
+          "diastolic_bp": 120.0,
+          "heart_rate": 83,
+          "measurement_time": "2025-09-09T08:12:58.725685",
+          "notes": "第10次测量"
+        }
+      ],
+      "medical_advice": [
+        {
+          "advice_type": "初始评估",
+          "content": "基于患者 王五 的血压情况，建议进行生活方式干预和定期监测。",
+          "risk_level": "中风险",
+          "created_at": "2025-09-13T00:12:58.727495"
+        }
+      ]
+    }
+  ]
+}
